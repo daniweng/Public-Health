@@ -1,0 +1,70 @@
+body{
+    background-color: #201F1F;
+}
+.text-content {
+    
+    margin: 20px 110px 20px 110px;
+    padding: 20px;
+    text-align: left;
+
+}
+
+#visualization {
+    /* Style for your visualization container */
+    margin-top: 20px;
+}
+
+.intro{
+    margin: 20px 110px 20px 110px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px; 
+}
+
+h1 {
+    color:#F3F6EF;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h2 {
+    color:#F3F6EF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+p {
+    color: #DFDFDF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.7;
+}
+li {
+    color: #DFDFDF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.7;
+}
+a {
+    color: #DBFF9C; /* Change this to your desired link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Styling for when the mouse hovers over the link */
+a:hover {
+    color: #DBFF9C; /* Change this to the color you want for hover state */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Styling for visited links */
+a:visited {
+    color: #fb6f92; /* Change this to the color you want for visited links */
+}
+
